@@ -19,10 +19,10 @@
         <a class="navbar-brand" href="#">Potato Banking</a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="html/balance.html">Balance</a>
-                <a class="nav-item nav-link" href="html/pagoServicios.html">Pago de Servicios</a>
-                <a class="nav-item nav-link" href="html/inversiones.html">Inversiones</a>
+                <a class="nav-item nav-link active" href="{{url('home/index')}}">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="{{url('home/balance')}}">Balance</a>
+                <a class="nav-item nav-link" href="{{url('home/pagoservicios')}}">Pago de Servicios</a>
+                <a class="nav-item nav-link" href="{{url('home/inversiones')}}">Inversiones</a>
             </div>
         </div>
     </nav>
