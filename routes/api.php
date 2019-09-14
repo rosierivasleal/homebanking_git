@@ -23,7 +23,7 @@ Route::get('pagoServicios', function () {
    $serviceList = [
        // asi devolvemos objetos
        [
-        "Servicio" =>"Agua",
+        "Servicioooooo" =>"Agua",
         "Valor" => 500, 
        ],
        [
