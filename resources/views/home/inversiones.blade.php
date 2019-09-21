@@ -21,10 +21,10 @@
                     </button> -->
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="{{url('home/index')}}">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="{{url('home/index')}}">Home</a>
                 <a class="nav-item nav-link" href="{{url('home/balance')}}">Balance</a>
                 <a class="nav-item nav-link" href="{{url('home/pagoservicios')}}">Pago de Servicios</a>
-                <a class="nav-item nav-link" href="{{url('home/inversiones')}}">Inversiones</a>
+                <a class="nav-item nav-link" href="{{url('home/inversiones')}}">Inversiones <span class="sr-only">(current)</span> </a>
             </div>
         </div>
     </nav>

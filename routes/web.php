@@ -41,7 +41,10 @@ Route::get('/home_test/{rol}', 'HomeController_test@index'); // el @ es la separ
 Route::get('/home_test/hi/{rol}', 'HomeController_test@hi');
 
 // ------------------ RUTAS VIA CONTROLADORES --------------------
-Route::get('/home/index', 'IndexController@index');
+Route::get('/home/index', 'IndexController@index'); //el controlador y su funcion
 Route::get('/home/balance', 'BalanceController@index');
 Route::get('/home/inversiones', 'InversionesController@index');
 Route::get('/home/pagoservicios', 'PagoServiciosController@index');
+
+Route::post('/getFormInfo', 'PagoServiciosController@getFormInfo');
+Route::post('/formCheck', 'PagoServiciosController@formCheck');
