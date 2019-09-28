@@ -29,9 +29,9 @@
         </div>
     </nav>
 
-    <div class="jumbotron text-center">
+    <div class="jumbotron @isset($alignmentJumbotron) {{$alignmentJumbotron}} @endisset">
         <h1 class="display-4">{{ $pageTitle }}</h1> <!-- estos son componentes del jumbotron -->
-        <p class="lead">Todo es mejor con Potato a tu lado.</p>
+        <p class="lead">{{ $pageSlogan }}</p>
     </div>
 
     <div class="container">

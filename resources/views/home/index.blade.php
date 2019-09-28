@@ -1,5 +1,7 @@
 @extends('layouts.app', [
-    'pageTitle' => 'Potato Banking'
+    'pageTitle' => 'Potato Banking',
+    'pageSlogan' => 'Todo es mejor con Potato a tu lado.',
+    'alignmentJumbotron' => 'text-center'
     ])
 @section('content')
 
